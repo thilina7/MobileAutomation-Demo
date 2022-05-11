@@ -76,11 +76,11 @@ public class AppTest{
 
 				// filling the username
 				
-				driver.findElement(By.id("io.selendroid.testapp:id/inputUsername")).sendKeys("User1");
+				driver.findElement(By.id("io.selendroid.testapp:id/inputUsername")).sendKeys("");
 				
-				driver.findElement(By.id("io.selendroid.testapp:id/inputEmail")).sendKeys("Test@test.com");
+				driver.findElement(By.id("io.selendroid.testapp:id/inputEmail")).sendKeys("");
 				
-				driver.findElement(By.id("io.selendroid.testapp:id/inputPassword")).sendKeys("123456");
+				driver.findElement(By.id("io.selendroid.testapp:id/inputPassword")).sendKeys("");
 
 				driver.pressKeyCode(AndroidKeyCode.BACK);
 				
